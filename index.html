@@ -7,56 +7,55 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 id = "inicio">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
     <h2>Índice</h2>
     <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#como">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#entendendo">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+    <p><strong><u><abbr>A história dos computadores </abbr></u></strong><mark>começou no século XIX </mark> com a criação do primeiro dispositivo mecânico de cálculo por Charles Babbage. Ao longo do século XX, os computadores evoluíram de máquinas enormes e complexas para dispositivos compactos e poderosos, graças a avanços como os transistores e microprocessadores. Hoje, os computadores são essenciais em quase todas as áreas da vida moderna, impulsionando inovação e conectividade global.</p>
+    <li><a href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/">A história dos computadores</a></li>
+    <small><a href="#inicio">(Voltar)</a></small>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p><strong><u>Clientes</u></strong> são dispositivos ou programas que solicitam e utilizam recursos ou serviços fornecidos por um servidor em uma rede. Eles enviam requisições ao servidor para acessar informações, realizar tarefas, ou usar aplicativos, como navegar na web, enviar emails, ou acessar bancos de dados. Exemplos comuns de clientes incluem computadores, smartphones, e softwares como navegadores de internet.</p>
+   <li><a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada">O que são clients</a></li>
+   <small><a href="#inicio">(Voltar)</a></small>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id ="servers">O que são <i>Servers</i>?</h2>
+    <p><strong><u>Servers</u> </strong>são computadores ou sistemas que fornecem recursos, dados ou serviços a outros computadores, conhecidos como clientes, em uma rede. Eles desempenham funções essenciais, como hospedar sites, gerenciar emails, ou armazenar dados. Servidores podem ser físicos, em data centers, ou virtuais, operando em ambientes de nuvem.</p>
+   <li><a href="https://www.controle.net/faq/o-que-sao-servidores">O que são servers</a></li>
+   <small><a href="#inicio">(Voltar)</a></small>
+    
+   <h2 id ="como">Como é uma estrutura básica de um HTML?</h2>
+    <p><strong><u>Uma estrutura básica no HTML</u> </strong> inclui a declaração (!DOCTYPE html), seguida pelas tags (html), (head), e (body). Dentro do (head), você define metadados e o título da página. O conteúdo visível da página é inserido dentro da tag (body).</p>
+    <li><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html">Estrutura básica HTML</a></li>
+    <small><a href="#inicio">(Voltar)</a></small>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="entendendo">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Em HTML, uma lista ordenada (ol) exibe itens em uma sequência numerada ou alfabética, indicando uma ordem específica. Já uma lista não ordenada (ul) apresenta itens com marcadores (pontos, círculos, etc.), sem indicar qualquer ordem.</p>
+    <li><a href="http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm#:~:text=A%20principal%20diferença%20entre%20a,marcadores%20antes%20de%20cada%20elemento.">Diferença listas</a></li>
+    <small><a href="#inicio">(Voltar)</a></small>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="links">Links de referências</h2> 
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p> 
     <ul>
         <li><a href="#">http://dio.me</a></li>
         <li><a href="#">http://w3c.org</a></li>
+        <li><a href="#">https://www.controle.net/faq/o-que-sao-servidores</a></li>
+        <li><a href="#">https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada</a></li>
+        <li><a href="#">http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm#:~:text=A%20principal%20diferença%20entre%20a,marcadores%20antes%20de%20cada%20elemento.</a></li>
     </ul>
+    <small><a href="#inicio">(Voltar)</a></small>
 
 </body>
 </html>
